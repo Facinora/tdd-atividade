@@ -14,4 +14,7 @@ describe("Calculadora", () => {
     it("divide 10 por 2 resultando em 5", () => {
   expect(dividir(10, 2)).toBe(5);
 });
+    it("lança erro ao dividir por zero", () => {
+  expect(() => dividir(10, 0)).toThrow("Divisão por zero");
+});
 });
