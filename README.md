@@ -1,7 +1,9 @@
 # Prática de TDD: TypeScript + Vitest
 
 **Aluno:** JOÃO CARLOS BAIA VAZ
+
 **Disciplina:** Engenharia de Software
+
 **Professor:** JONATHAS WALBERT LACERDA DA ROCHA DE SOUZA
 
 ## Descrição
