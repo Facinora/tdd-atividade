@@ -18,4 +18,9 @@ describe("Sistema de descontos", () => {
     it("aplica 20% de desconto para compra de R$ 250", () => {
     expect(calcularValorFinal(250)).toBe(200);
 });
+    it("não aplica desconto em R$ 99,99", () => {
+    expect(calcularValorFinal(99.99)).toBe(99.99);
+});
+    it("aplica 10% em R$ 199,99 e arredonda para duas casas", () => {
+    expect(calcularValorFinal(199.99)).toBe(179.99);
 });
