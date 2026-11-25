@@ -1,3 +1,6 @@
+const MENSAGEM_DIVISAO_POR_ZERO = "Divisão por zero";
+
+
 export function somar(a: number, b: number): number {
   return a + b;
 }
